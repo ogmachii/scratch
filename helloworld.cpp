@@ -4,8 +4,13 @@
  * With the help of Sololearn
  **/
 #include <iostream>
-
+using namespace std; 
 int main{
-    std::cout>>"Hello World!";
+
+    const string helloWorldStatement = "Hello World!"; 
+
+    cout>>helloWorldStatement;
+    
     return 0;
+
 }
